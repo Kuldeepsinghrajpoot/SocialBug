@@ -38,7 +38,7 @@ export const CLD = {
     "https://res.cloudinary.com/q00g4kki/image/upload/v1790574954/post-12.webp",
     "https://res.cloudinary.com/q00g4kki/image/upload/v1790574954/post-13.webp",
     "https://res.cloudinary.com/q00g4kki/image/upload/v1790574954/post-14.webp",
-    "https://res.cloudinary.com/q00g4kki/image/upload/v1790926065/55720b7a-121f-4e63-89ab-eef8fe65cf2b.png"
+    "https://res.cloudinary.com/q00g4kki/image/upload/v1790928304/93e69ca7-ee72-4c36-a1c2-a7e4a1f15e3c.png"
   ],
 // white images
   partners: { 
