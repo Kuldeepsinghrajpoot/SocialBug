@@ -12,7 +12,6 @@ import NavIcon from "@/components/ui/NavIcon";
 import { CLD } from "@/lib/cloudinary";
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   
@@ -26,11 +25,8 @@ export default function Navbar() {
           initial={{ y: -40, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className={`relative mx-4 flex w-full max-w-6xl items-center justify-between rounded-full border border-white/8 px-5 py-2 shadow-[0_8px_30px_-10px_rgba(0,0,0,0.6)] transition-all duration-500 ${
-            scrolled
-              ? "bg-sb-black/90 backdrop-blur-none sm:bg-sb-black/85 sm:backdrop-blur-xl"
-              : "bg-sb-black/85 backdrop-blur-none sm:bg-sb-black/60 sm:backdrop-blur-xl"
-          }`}
+          className={`bg-sb-black/90 backdrop-blur-none sm:bg-sb-black/85 sm:backdrop-blur-xl relative mx-4 flex w-full max-w-6xl items-center justify-between rounded-full border border-white/8 px-5 py-2 shadow-[0_8px_30px_-10px_rgba(0,0,0,0.6)] transition-all duration-500 
+           `}
         >
           <Link href="/" data-cursor="pointer" className="sb-logo-hop flex items-center gap-1.5">
             <div className="sb-logo-badge relative flex h-11 w-11 shrink-0 items-center justify-center">
